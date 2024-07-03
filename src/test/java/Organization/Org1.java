@@ -17,7 +17,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Org1{
 	public static void main(String[] args) throws Throwable {
-
+//git
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
